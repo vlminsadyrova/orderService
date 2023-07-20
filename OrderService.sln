@@ -6,6 +6,9 @@ MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{BF0A8AED-BD37-4AFC-A743-0C0C64E5C1A1}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "common", "common", "{D9DA7181-1B20-4C6E-BD79-AD60E1536203}"
+	ProjectSection(SolutionItems) = preProject
+		docker-compose.yml = docker-compose.yml
+	EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OrderService.OrderGenerator", "src\OrderService.OrderGenerator\OrderService.OrderGenerator.csproj", "{BA6073D3-18C0-4A98-AAE1-183DBBB787A4}"
 EndProject

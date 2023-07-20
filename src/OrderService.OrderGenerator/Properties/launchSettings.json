@@ -1,0 +1,10 @@
+{
+  "profiles": {
+    "OrderService.OrderGenerator": {
+      "commandName": "Project"
+    },
+    "Docker": {
+      "commandName": "Docker"
+    }
+  }
+}
