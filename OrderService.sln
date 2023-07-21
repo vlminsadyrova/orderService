@@ -12,6 +12,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "common", "common", "{D9DA71
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OrderService.OrderGenerator", "src\OrderService.OrderGenerator\OrderService.OrderGenerator.csproj", "{02856D0F-A7CB-47E8-AC34-8E9FCAC814E8}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OrderService.CustomerService", "src\OrderService.CustomerService\OrderService.CustomerService.csproj", "{0BA6B244-5EEA-4A11-9C00-8C9FC817B414}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -22,12 +24,17 @@ Global
 		{02856D0F-A7CB-47E8-AC34-8E9FCAC814E8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{02856D0F-A7CB-47E8-AC34-8E9FCAC814E8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{02856D0F-A7CB-47E8-AC34-8E9FCAC814E8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0BA6B244-5EEA-4A11-9C00-8C9FC817B414}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0BA6B244-5EEA-4A11-9C00-8C9FC817B414}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0BA6B244-5EEA-4A11-9C00-8C9FC817B414}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0BA6B244-5EEA-4A11-9C00-8C9FC817B414}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{02856D0F-A7CB-47E8-AC34-8E9FCAC814E8} = {BF0A8AED-BD37-4AFC-A743-0C0C64E5C1A1}
+		{0BA6B244-5EEA-4A11-9C00-8C9FC817B414} = {BF0A8AED-BD37-4AFC-A743-0C0C64E5C1A1}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {C3B3CF60-3D93-46A3-9607-7E83B637A0BD}
